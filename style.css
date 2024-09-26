@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+/* caixa principal */
+.container {
+    width: 100%;
+    /*largura*/
+    height: 100vh;
+    /*altura*/
+    background-image: linear-gradient(#66E627, #1DA126); 
+    display: flex;
+    justify-content: center;
+
+}
+/*caixa ao centro*/
+.card{
+    width: 540px;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 16px;
+    /*alinhamento do itens*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*sombra do box*/
+    box-shadow: rgba(red, green, blue, alpha) 0px  7px 29px 0px;
+}

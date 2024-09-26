@@ -10,17 +10,30 @@
     background-image: linear-gradient(#66E627, #1DA126); 
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 /*caixa ao centro*/
 .card{
     width: 540px;
-    background-color: rgba(red, green, blue, alpha);
+    background-color: rgba(9,243,24,.5);
     border-radius: 16px;
     /*alinhamento do itens*/
     display: flex;
     flex-direction: column;
     align-items: center;
     /*sombra do box*/
-    box-shadow: rgba(red, green, blue, alpha) 0px  7px 29px 0px;
+    box-shadow: rgba(98, 98, 100, 0.2) 0px  7px 29px 0px;
+}
+.profile-img{
+    width: 120px;
+    border-radius: 50%;
+    border: #2ca11d6b 5px solid;
+    
+
+    /*sombre do box*/
+    box-shadow: rgba(red, green, blue, alpha) (0,0,0,0.35) 0px 5px 15px;
+    /*direciona o img no eixo y*/
+    transform: translateY(-65px);
+
 }

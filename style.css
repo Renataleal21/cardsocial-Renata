@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+*{
+    color: #fff;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* caixa principal */
 .container {
@@ -36,4 +39,46 @@
     /*direciona o img no eixo y*/
     transform: translateY(-65px);
 
+}
+.container-text{
+    margin-top: -40px;
+}
+
+h1.nome{
+    margin: 0;
+    text-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+}
+
+h3.desc{
+    font-weight: 400;
+    text-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+}
+
+.icone-endereco{
+    width: 22px;
+    filter: brightness(10);
+}
+.socials{
+    margin: 30px 0;
+}
+
+.socials a{
+    margin-right: 40px;
+}
+
+.socials a:last-child{
+    margin-right: 0px;
+}
+
+.sociais img{
+    width: 50px;
+    transition: all .3s;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 50%;
+}
+.sociais img:hover{
+    transform: scale(110%);
+}
+.sociais img:active{
+    transform: scale(100%);
 }
